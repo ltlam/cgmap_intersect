@@ -17,5 +17,5 @@ Python script to generate a matrix of methylation values of common CpG sites wit
 
 ```
 cd <cgmap_intersect.py path>
-python -in_sam ./test_data/PBMC_1.CGmap,./test_data/PBMC_2.CGmap,./test_data/PBMC_3.CGmap,./test_data/PBMC_4.CGmap,./test_data/PBMC_5.CGmap,./test_data/PBMC_6.CGmap -out_sam intersect.txt -cov_sam 10
+python cgmap_intersect.py -in_sam ./test_data/PBMC_1.CGmap,./test_data/PBMC_2.CGmap,./test_data/PBMC_3.CGmap,./test_data/PBMC_4.CGmap,./test_data/PBMC_5.CGmap,./test_data/PBMC_6.CGmap -out_sam intersect.txt -cov_sam 10
 ```
